@@ -1,3 +1,18 @@
+# Arquivos de compilação Java
+ *.class
+
+ # Arquivos do sistema
+ .DS_Store
+ Thumbs.db
+
+ # IDEs
+ .vscode/
+ *.iml
+ .idea/
+
+ # Outros
+ *.log
+
 # Default ignored files
 /shelf/
 /workspace.xml
