@@ -9,20 +9,30 @@ public class Funcionario {
         cargo = cargoInit;
         idade = idadeInit;
     }
+    Funcionario(int idadeInit, String cargoInit, String nomeInit ) {
+        nome = nomeInit;
+        cargo = cargoInit;
+        idade = idadeInit;
+    }
+    Funcionario(String nomeInit) {
+        nome = nomeInit;
+    }
+
+    Funcionario() {
+    }
+
 
     public static void main(String[] args) {
 
-        Funcionario funcionario1 = new Funcionario("João", "Desenvolvedor" , 30);
+        // Funcionario funcionario = new Funcionario("João", "Desenvolvedor" , 30);
+        // Funcionario funcionario1 = new Funcionario();
+        // funcionario1.nome = "João";
+        Funcionario funcionario = new Funcionario(50,"Gerente","Maria");
 
-        Funcionario funcionario2 = new Funcionario("Maria", "Gerente", 50);
 
-        System.out.println("Nome: " + funcionario1.nome);
-        System.out.println("Cargo: " + funcionario1.cargo);
-        System.out.println("Idade: " + funcionario1.idade);
-        System.out.println("----------------------------");
-        System.out.println("Nome: " + funcionario2.nome);
-        System.out.println("Cargo: " + funcionario2.cargo);
-        System.out.println("Idade: " + funcionario2.idade);
+        System.out.println("Nome: " + funcionario.nome);
+        System.out.println("Cargo: " + funcionario.cargo);
+        System.out.println("Idade: " + funcionario.idade);
 
 
     }

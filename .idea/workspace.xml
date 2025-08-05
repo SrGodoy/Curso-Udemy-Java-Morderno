@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82439975-a7d9-48b1-ae4e-d20ef35dbde9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seção 14 Principios Programação Orientada a Objetos/Bolo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seção 14 Principios Programação Orientada a Objetos/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seção 14 Principios Programação Orientada a Objetos/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seção 14 Principios Programação Orientada a Objetos/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seção 14 Principios Programação Orientada a Objetos/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +29,10 @@
     &quot;accountId&quot;: &quot;ea3ae059-6eed-4c40-9451-08e8ebcafff6&quot;
   }
 }</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "f03535ff",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="30AG2GDRqXis9egPYsnwLSzHIzV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +53,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="TaskManager">
