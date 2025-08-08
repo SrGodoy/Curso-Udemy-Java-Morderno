@@ -2,9 +2,12 @@ import empresa.dados.*;
 public class FolhaDePagamento {
     public static void main(String[] args) {
 
-          //  TestePackage tp = new TestePackage ();
+       Funcionario funcionario = new Funcionario("Arnaldo", 5000.00);
+        System.out.println(funcionario.obterInfo());
 
-       // Funcionario funcionario = new Funcionario("Maria", 6200.00);
-       Funcionario funcionario = new Funcionario();
+        funcionario.alterarQualquerSalario(funcionario, 9000.00);
+        System.out.println(funcionario.obterInfo());
+        funcionario.salario = 7000.00;
+        System.out.println(funcionario.obterInfo());
     }
 }
