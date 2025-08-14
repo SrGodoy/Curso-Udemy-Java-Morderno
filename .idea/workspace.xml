@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82439975-a7d9-48b1-ae4e-d20ef35dbde9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seção 15 Arrays/ArrayPares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seção 15 Arrays/Ate1000Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seção 16 Herança/TestHeranca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seção 16 Arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seção 15 Arrays/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seção 16 Arrays/ArraysUsandoForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seção 15 Arrays/ArraysUsandoForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seção 16 Arrays/ExercicioNotaAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seção 15 Arrays/ExercicioNotaAluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
