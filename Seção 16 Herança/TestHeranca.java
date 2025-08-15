@@ -1,20 +1,21 @@
 class Animal {
-    public void comer(){
-        System.out.println("O animal come");
+        public void fazerSom(int i, String s) {
+            System.out.println("O animal faz um som");
+
     }
 }
 
 class Cachorro extends Animal {
-    public void latir(){
+    public void fazerSom( int i, String s) {
         System.out.println("O cachorro late");
     }
+
 }
 
 public class TestHeranca{
     public static void main(String[] args) {
         Cachorro dog = new Cachorro();
-        dog.latir();
 
-        dog.comer();
+      dog.fazerSom(1, "");
     }
 }
