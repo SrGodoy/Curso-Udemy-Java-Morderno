@@ -1,12 +1,14 @@
 class Animal {
-        public void fazerSom(int i, String s) {
+    public String nome;
+        public void fazerSom() {
             System.out.println("O animal faz um som");
 
     }
 }
 
 class Cachorro extends Animal {
-    public void fazerSom( int i, String s) {
+    public void fazerSom() {
+        super.fazerSom();
         System.out.println("O cachorro late");
     }
 
@@ -15,7 +17,8 @@ class Cachorro extends Animal {
 public class TestHeranca{
     public static void main(String[] args) {
         Cachorro dog = new Cachorro();
-
-      dog.fazerSom(1, "");
+        dog.nome = "Rex";
+        System.out.println("O nome do animal : " + dog.nome);
+      dog.fazerSom();
     }
 }
