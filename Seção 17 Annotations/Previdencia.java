@@ -10,11 +10,12 @@ class InformaRegras {
 }
 
 public class Previdencia {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         InformaRegras regras = new InformaRegras();
 
         //Uso do metodo obsoleto (deprecated)
-        //regras.mostrarRegrasParaAposentadoria();
+        regras.mostrarRegrasParaAposentadoria();
 
         //Uso do novo método
         regras.mostrarNovasRegrasParaAposentadoria();
