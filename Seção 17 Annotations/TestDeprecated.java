@@ -7,17 +7,26 @@ class InformaRegras {
     public void mostrarNovasRegrasParaAposentadoria() {
         System.out.println("NOVAS Regras para Aposentadoria");
     }
+
+    public void chamarMetodoObsoletoNaMesmaClasse(){
+        mostrarRegrasParaAposentadoria();
+    }
+
 }
 
-public class Previdencia {
-    @SuppressWarnings("deprecation")
+
+
+
+
+public class TestDeprecated {
+
     public static void main(String[] args) {
         InformaRegras regras = new InformaRegras();
 
-        //Uso do metodo obsoleto (deprecated)
-        regras.mostrarRegrasParaAposentadoria();
+      regras.chamarMetodoObsoletoNaMesmaClasse();
 
-        //Uso do novo método
-        regras.mostrarNovasRegrasParaAposentadoria();
+
+
+
     }
 }
