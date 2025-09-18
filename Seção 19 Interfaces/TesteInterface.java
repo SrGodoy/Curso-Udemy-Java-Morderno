@@ -1,4 +1,5 @@
 interface Animal {
+    public static final String DESCRICAO = "Animal é um ser vivo importante!";
     void fazerSom(); //método abstrato
 }
 
@@ -23,10 +24,13 @@ class Cachorro implements Animal {
 public class TesteInterface{
     public static void main(String[] args) {
 
+
         Cachorro cachorro = new Cachorro();
         cachorro.fazerSom(); // deve imprimir au au
 
         Gato gato = new Gato();
         gato.fazerSom(); // deve imprimir miau maiu
+
+        System.out.println("Descrição da interface: " + Animal.DESCRICAO);
     }
 }
