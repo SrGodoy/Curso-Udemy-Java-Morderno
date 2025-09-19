@@ -1,10 +1,17 @@
-interface Animal {
-    public static final String DESCRICAO = "Animal é um ser vivo importante!";
+interface SerVivo {
+    void respirar(); //método abstrato
+}
+
+
+
+interface Animal extends SerVivo {
+    String DESCRICAO = "Animal é um ser vivo importante!";
     void fazerSom(); //método abstrato
 }
 
-//Classe Cachorro que implementa a interface animal
+
 class Cachorro implements Animal {
+   public void respirar() {}
 
     @java.lang.Override
     public void fazerSom() {
@@ -12,8 +19,9 @@ class Cachorro implements Animal {
     }
 }
 
-// Classe Gato que implementa a interface animal
+
  class Gato implements Animal {
+    public void respirar() {}
 
     @java.lang.Override
     public void fazerSom() {
