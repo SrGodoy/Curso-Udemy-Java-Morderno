@@ -1,4 +1,5 @@
 abstract class Carro {
+    int codigo = 30;
     abstract void  acelerar();
 
     void frear() {
@@ -22,13 +23,17 @@ class Caminhao extends Carro {
 
 public class TestAbstract {
     public static void main(String[] args) {
-        CarroF1 carroF1 = new CarroF1();
+
+
         Caminhao caminhao = new Caminhao();
 
-        carroF1.acelerar();
-        carroF1.frear();
+        System.out.println("Codigo " + caminhao.codigo);
 
-        caminhao.acelerar();
-        caminhao.frear();
+        caminhao.codigo = 566;
+
+        System.out.println("Codigo trocado " + caminhao.codigo);
+
+
+
     }
 }
