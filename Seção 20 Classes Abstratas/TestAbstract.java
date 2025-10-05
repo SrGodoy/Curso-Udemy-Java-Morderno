@@ -1,5 +1,10 @@
 abstract class Carro {
     int codigo = 30;
+
+    Carro(int cod) {
+        codigo = cod;
+    }
+
     abstract void  acelerar();
 
     void frear() {
@@ -7,14 +12,14 @@ abstract class Carro {
     }
 }
 
-class CarroF1 extends Carro {
-    @java.lang.Override
-    void acelerar() {
-        System.out.println("O carro de Formula 1 está acelerando muito rapidamente...");
-    }
-}
+
 
 class Caminhao extends Carro {
+    Caminhao (int codigo) {
+        super(codigo);
+
+    }
+
     @java.lang.Override
     void acelerar() {
         System.out.println("O caminhão esta acelarando lentamente...");
@@ -25,13 +30,10 @@ public class TestAbstract {
     public static void main(String[] args) {
 
 
-        Caminhao caminhao = new Caminhao();
+        Caminhao caminhao = new Caminhao(1000);
 
         System.out.println("Codigo " + caminhao.codigo);
 
-        caminhao.codigo = 566;
-
-        System.out.println("Codigo trocado " + caminhao.codigo);
 
 
 
