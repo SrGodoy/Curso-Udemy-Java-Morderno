@@ -7,7 +7,7 @@ interface Interface2 {
 }
 
 
-class ClassExemplo implements Interface1, Interface2 {
+abstract class ClassExemplo implements Interface1, Interface2 {
     @java.lang.Override
     public void metodo1() {
         System.out.println("Método 1");
@@ -21,11 +21,11 @@ class ClassExemplo implements Interface1, Interface2 {
 
 }
 
-public class TestInterfaceMultipla{
+public class TestInterfaceMultipla extends ClassExemplo{
     public static void main(String[] args) {
-        ClassExemplo exemplo = new ClassExemplo();
-        exemplo.metodo1();
-        exemplo.metodo2();
+        TestInterfaceMultipla test = new TestInterfaceMultipla();
+        test.metodo1();
+        test.metodo2();
 
     }
 }
