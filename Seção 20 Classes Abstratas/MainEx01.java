@@ -10,7 +10,7 @@ class Retangulo extends FiguraGeometrica {
 
     private double base;
     private double altura;
-
+//teste de commit para o novo windows e configuração do git do ambiente
     //construtor
     public Retangulo(double base, double altura) {
         this.base = base;
