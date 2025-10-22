@@ -1,20 +1,14 @@
-abstract class Animal { //superclasse
+abstract class Animal extends Object { //superclasse
     public abstract void fazerSom();
-
-    public void TipoObjeto() {
-        System.out.println("Objeto do Tipo Animal");
-    }
 }
 
 class Cachorro extends Animal { //Subclasse Cachorro
-
     public void fazerSom() {
-        System.out.println("O cachorro faz: Au Au");
+        System.out.println("O cachorro faz: Au Au!");
     }
 }
 
 class Gato extends Animal { //Subclasse Gato
-
     public void fazerSom() {
         System.out.println("O gato faz: Miau Miau!");
     }
@@ -25,16 +19,13 @@ public class TestPolimorfismo {
 
         //Criando objetos polimórficos
 
-        Animal meuCachorro = new Cachorro();
+        Object meuCachorro = new Cachorro();
+        Object meuGato = new Gato();
 
-        Animal meuGato = new Gato();
+       // meuCachorro.fazerSom(); // Imprime : O cachorro faz: Au Au!
+        Cachorro objCovertido = (Cachorro) meuCachorro; //Casting Object
+        objCovertido.fazerSom();
 
-        meuCachorro.fazerSom(); // Imprime : O cachorro faz: Au Au!
-
-        meuGato.fazerSom(); // Imprime: O gato faz: Miau Miau!
-
-        meuCachorro.TipoObjeto();
-        meuGato.TipoObjeto();
-
+        ((Cachorro) meuCachorro).fazerSom();
     }
 }
