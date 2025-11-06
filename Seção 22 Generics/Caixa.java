@@ -18,6 +18,16 @@ public class Caixa<T> {
         String texto = caixaDeTexto.pegar();
 
         System.out.println(texto); //Imprime : Oi, Mundo
+
+        //Caixa para números
+        Caixa<Integer> caixaDeNumeros = new Caixa<>();
+        Integer numero = new Integer (3);
+        caixaDeNumeros.guardar(numero);
+
+        Integer valorResgatado = caixaDeNumeros.pegar();
+        System.out.println(valorResgatado);
+
+
     }
 
 }
